@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/node-docker-ci.git'
+                git 'https://github.com/ajaygitj/jen-docker.git'
             }
         }
 
